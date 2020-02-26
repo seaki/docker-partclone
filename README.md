@@ -5,13 +5,14 @@ Build
 -----
 
 ```
-docker build -t 'partclone:bionic-20200112_0.3.13-git0819-2f1830e-drbl1' .
+cd ubuntu/bionic
+docker build -t 'seaki/partclone' .
 ```
 
 Run
 ---
 
 ```
-docker run --rm -it 'partclone:bionic-20200112_0.3.13-git0819-2f1830e-drbl1'
+docker run --rm -it 'seaki/partclone'
 ```
 This command will drop bash.
